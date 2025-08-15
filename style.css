@@ -432,18 +432,15 @@ section {
 
     .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-        gap: 3rem;
+        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+        gap: 2rem;
     }
 
     .menu .box-container .box {
         text-align: center;
         border: var(--border);
-        padding: 3rem;
-        cursor: pointer;
-        background-position: center;
-        width: 20rem;
-        height: 20rem;
+        margin-right: 1rem;
+        width: 75%;
     }
 
     .menu .box-container .box img {
@@ -453,7 +450,7 @@ section {
     .menu .box-container .box h3 {
         color: #fff;
         font-size: 1.3rem;
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     .menu .box-container .box .price {
@@ -480,16 +477,12 @@ section {
 
     .review .box-container .box{
         text-align: center;
-        width: 20em;
-        height: 20rem;
-        padding: 3rem;
-        
+        max-width: 100%;
     }
 
     .review .box-container .box p {
         font-size: 12px;
         color: #fff;
-        padding: 1rem 4rem;
         line-height: 1.5;
         font-weight: lighter;
         text-align: center;
