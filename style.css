@@ -431,7 +431,7 @@ section {
 
     .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
         gap: 2rem;
     }
 
@@ -440,6 +440,8 @@ section {
         border: var(--border);
         padding: 4rem;
         cursor: pointer;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .menu .box-container .box img {
@@ -475,9 +477,10 @@ section {
     /* Avaliações ----------------------------------------------- */
 
     .review .box-container .box{
-        border: var(--border);
         text-align: center;
-        padding: 10px;
+        padding: 5px;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     .review .box-container .box p {
@@ -527,8 +530,8 @@ section {
     }
 
     .address iframe {
-        height: 450px;
-        width: 450px;
+        height: 380px;
+        width: 380px;
     }
 
     .footer {
