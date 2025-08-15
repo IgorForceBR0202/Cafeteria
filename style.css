@@ -431,17 +431,16 @@ section {
 
     .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap: 3rem;
     }
 
     .menu .box-container .box {
         text-align: center;
         border: var(--border);
-        padding: 4rem;
+        padding: 6rem;
         cursor: pointer;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-right: 3.5rem;
     }
 
     .menu .box-container .box img {
@@ -478,9 +477,8 @@ section {
 
     .review .box-container .box{
         text-align: center;
-        padding: 5px;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        padding: 10px;
+        margin-right: 3.5rem;
     }
 
     .review .box-container .box p {
@@ -532,8 +530,8 @@ section {
     }
 
     .address iframe {
-        height: 380px;
-        width: 380px;
+        height: 300px;
+        width: 300px;
     }
 
     .footer {
